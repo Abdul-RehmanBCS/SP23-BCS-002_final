@@ -1,0 +1,131 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#maincontainer{
+    width: 100%:
+}
+#container{
+    width: 90%;
+    height: 500px;
+    margin: 50px;
+    margin-left: 70px;
+    background: url(templatemo_slide_2.jpg);
+}
+#navbar{
+    margin: 50px;
+    margin-left: 60px;
+    position: absolute;
+    width: 1000px;
+}
+#nav{
+    display: inline-block;
+    margin-left: 250px;
+}
+.nav{
+    margin-top: 200px;
+}
+ul.navbar {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  ul.navbar li {
+    float: left;
+    margin: 10px;
+  }
+  ul.navbar li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  ul.navbar li a:hover {
+    color: white;
+    background-color: green;
+  }
+  #contain{
+    width: 300px;
+    height: 250px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+  }
+  #contain button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 25px;
+  }
+  #barcel{
+    color: black;
+  }
+  #button{ 
+    margin: 10px;
+  }
+  #button button{
+    background-color: green;
+    margin: 15px;
+  }
+  #nexts{
+    width: 1000px;
+    display: inline-block;
+    height: 300px;
+    display: flex;    
+    flex-direction: row;
+  }
+  .next{
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    background-color:white;
+    margin: 20px;
+  }
+.next1{
+    background-color: green;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.next2{
+    color: green;
+}
+.next3{
+    color: red;
+    margin-bottom: 10px;
+}
+#images{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(124, 123, 123);
+    height: 150px;
+    width: 1000px;
+    margin-top: 100px;
+}
+.image{
+ padding: 40px;
+ border: 2px solid black;
+}
+#footer{
+    margin-top: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 200px;
+}
+#footer img{
+    margin-top: 10px;
+}
+.copy{
+    display: inline-block;
+    margin-left: 200px;
+    color: black;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
